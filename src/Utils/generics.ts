@@ -232,7 +232,7 @@ export const bindWaitForConnectionUpdate = (ev: BaileysEventEmitter) => bindWait
  * Use to ensure your WA connection is always on the latest version
  */
 export const fetchLatestBaileysVersion = async (options: RequestInit = {}) => {
-	const URL = 'https://raw.githubusercontent.com/WhiskeySockets/Baileys/master/src/Defaults/index.ts'
+	const URL = 'https://raw.githubusercontent.com/chatwoot-br/Baileys/master/src/Defaults/index.ts'
 	try {
 		const response = await fetch(URL, {
 			dispatcher: options.dispatcher,
